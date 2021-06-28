@@ -24,7 +24,7 @@ public class 체스판다시칠하기_BOJ1018 {
 						int x = sx+j;
 						if(flag==map[y][x]) count++;
 						else count2++;
-						if(min <= count) continue next;
+						
 						flag = (flag == 'W' ? 'B' : 'W');
 					}
 					flag = (flag == 'W' ? 'B' : 'W');
