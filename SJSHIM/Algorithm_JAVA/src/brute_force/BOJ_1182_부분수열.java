@@ -3,7 +3,7 @@ package brute_force;
 import java.util.*;
 import java.io.*;
 
-public class BOJ_1182_ºÎºÐ¼ö¿­ {
+public class BOJ_1182_ë¶€ë¶„ìˆ˜ì—´ {
 	static int target, size, ret;
 	static int arr[];
 	public static void main(String[] args) throws Exception{

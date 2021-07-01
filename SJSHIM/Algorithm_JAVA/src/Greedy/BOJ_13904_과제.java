@@ -3,7 +3,7 @@ package Greedy;
 import java.util.*;
 import java.io.*;
 
-public class BOJ_13904_°úÁ¦ {
+public class BOJ_13904_ê³¼ì œ {
 
 	static int N;
 	public static void main(String[] args) throws Exception {
@@ -19,12 +19,12 @@ public class BOJ_13904_°úÁ¦ {
 			arr.add(new work(Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken())));
 		}
 		
-		// Á¡¼ö°¡ ³ôÀº ¼øÀ¸·Î Á¤·Ä
+		// ì ìˆ˜ê°€ ë†’ì€ ìˆœìœ¼ë¡œ ì •ë ¬
 		Collections.sort(arr);
 		
 		int result[] = new int [1001];
 		
-		// ³ôÀº Á¡¼ö¸¦ È¹µæÇÒ ¼ö ÀÖ´Â °ÍÀ» ¼ø¼­´ë·Î deadline¿¡ °¡±õ°Ô Á¦Ãâ
+		// ë†’ì€ ì ìˆ˜ë¥¼ íšë“í•  ìˆ˜ ìˆëŠ” ê²ƒì„ ìˆœì„œëŒ€ë¡œ deadlineì— ê°€ê¹ê²Œ ì œì¶œ
 		for (int i = 0; i < arr.size(); i++) {
 			int day=arr.get(i).day;
 			for (int j = day; j > 0; j--) {

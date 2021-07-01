@@ -3,7 +3,7 @@ package Greedy;
 import java.util.*;
 import java.io.*;
 
-public class BOJ_1449_¼ö¸®°øÇ×½Â {
+public class BOJ_1449_ìˆ˜ë¦¬ê³µí•­ìŠ¹ {
 	static int N,L;
 	static List<Integer> arr=new ArrayList<>();
 	
@@ -30,7 +30,7 @@ public class BOJ_1449_¼ö¸®°øÇ×½Â {
 				cnt++;
 			}
 		}
-		// Á¤·Ä ÈÄ °¡Àå ¿ŞÂÊºÎÅÍ Â÷·Ê´ë·Î Å×ÀÌÇÁ ¹üÀ§¸¦ È®ÀÎ
+		// ì •ë ¬ í›„ ê°€ì¥ ì™¼ìª½ë¶€í„° ì°¨ë¡€ëŒ€ë¡œ í…Œì´í”„ ë²”ìœ„ë¥¼ í™•ì¸
 		
 		System.out.println(cnt);
 	}
