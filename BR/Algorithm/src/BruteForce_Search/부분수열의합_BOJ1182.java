@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class ºÎºĞ¼ö¿­ÀÇÇÕ_BOJ1182 {
+public class ë¶€ë¶„ìˆ˜ì—´ì˜í•©_BOJ1182 {
 	static int N, S, num[], count;
 	public static void main(String[] args) throws Exception{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

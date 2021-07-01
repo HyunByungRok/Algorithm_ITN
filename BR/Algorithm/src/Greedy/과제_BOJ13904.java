@@ -8,7 +8,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class °úÁ¦_BOJ13904 {
+public class ê³¼ì œ_BOJ13904 {
 	static int N, d, w, max, result;
 	static List<Problem> problems;
 	static boolean check[];
@@ -25,7 +25,7 @@ public class °úÁ¦_BOJ13904 {
 			max = Math.max(max, d);
 			problems.add(new Problem(d, w));
 		}
-		check = new boolean[d+1];
+		check = new boolean[max+1];
 		problems.sort(new Comparator<Problem>() {
 
 			@Override

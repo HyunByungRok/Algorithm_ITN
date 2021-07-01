@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class ü���Ǵٽ�ĥ�ϱ�_BOJ1018 {
+public class 체스판다시칠하기_BOJ1018 {
 	static int N, M;
 	static char map[][];
 	public static void main(String[] args) throws Exception{

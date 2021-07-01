@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class ¼ıÀÚ¾ß±¸_BOJ2503 {
+public class ìˆ«ìì•¼êµ¬_BOJ2503 {
 	public static void main(String[] args) throws Exception{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int size = Integer.parseInt(br.readLine());
