@@ -16,13 +16,13 @@ public class 곱셈_BOJ1629 {
 		System.out.println(conquer(A, B));
 	}
 	private static long conquer(long a, long b) {
-		if(b == 1) return a;
+		if(b == 1) return a%C;
 		
 		long divide = conquer(a, b/2); 
 		if(b%2 == 0) {
 			//짝수일때
 			return (divide * divide)%C;
 		}else
-			return ((divide*divide)%C*a)%C;
+			return ((divide*divide)%C)*a%C;
 	}
 }
