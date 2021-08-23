@@ -17,6 +17,7 @@ public class BOJ_1260_DFS와BFS {
 		M = Integer.parseInt(st.nextToken());
 		V = Integer.parseInt(st.nextToken());
 
+		board = new boolean[N + 1][N + 1];
 		visited = new boolean[N + 1];
 
 		for (int i = 0; i < M; i++) {
